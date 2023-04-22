@@ -22,12 +22,12 @@
 // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  :  |   BKSP    |
 // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |    '      |
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | SHFT(RET) |
-//              | LGUI   |  LWR/SPC  | RSE/ENT |   LSHFT/BKSP  | ALT |
+//              | LCMD   |  LWR/SPC  | RSE/ENT |   LSHFT/BKSP  | ALT |
                         bindings = <
    &kp C_PP             &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
    &mt LCTRL ESC        &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
    &mt LSHFT TAB        &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
-                        &mt LGUI MINUS &lt 1 SPACE &lt 2 RET &mt LSHFT BSPC &mt RALT EQUAL
+                        &mt LCMD MINUS &lt 1 SPACE &lt 2 RET &mt LSHFT BSPC &mt RALT EQUAL
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
